@@ -30,6 +30,18 @@ class ItemShop:
                 # print(item)
                 item.display_in_columns()
 
+        # Free items alert
+        free_items = []
+        for item in self.__items:
+            if item.get_price() == 0:
+                free_items.append(item)
+        if len(free_items) == 0:
+            print("\nNo free items present")
+        else:
+            print("\n==FREE ITEMS==\n")
+            for free_item in free_items:
+                print(free_item)
+
         # Wishlist alert
         wishlisted_items = []
         for wishlisted_item in self.__wishlist:
