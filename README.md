@@ -1,3 +1,2 @@
 # Fortnite API Daily Shop script
-Object-oriented approach to a Fortnite daily shop tracker. Create an API key on https://dash.fortnite-api.com/account, replace the api_token var and just run the program. Supports wishlisted item alerts. 
- 
+Object-oriented approach to a Fortnite daily shop tracker. Create an API key on https://dash.fortnite-api.com/account, store it in "api_token.py" and just run "main.py". Modify the behaviour of the output in "shown_types.py". At the end of the output there are alerts for free items and wishlisted items added to "wishlist.py".
